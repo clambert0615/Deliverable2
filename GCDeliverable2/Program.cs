@@ -21,7 +21,7 @@ namespace GCDeliverable2
 
             foreach (Byte b in message)
             {
-                Console.Write("{0}-", b - 65);
+                Console.Write("{0}-", b - 64);
                 checksum = checksum + b;
             }
             Console.WriteLine();
